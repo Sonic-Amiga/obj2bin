@@ -360,7 +360,7 @@ if ($romtype eq 'BOOT') {
 
     # program load image ... full address space
     %excaddr = ( ); # bytes to be skipped in rom crc calc
-    $memsize = 7*8192; # number of instruction bytes allowed
+    $memsize = 8*8192; # number of instruction bytes allowed
     $memfill = 0x00; # memory fill pattern
     $romsize = 8*8192; # number of rom addresses (must be a power of two)
     $romfill = 0x00; # image fill pattern
